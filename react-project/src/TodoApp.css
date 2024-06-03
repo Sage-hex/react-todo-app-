@@ -1,0 +1,48 @@
+.TodoAppContainer {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to right, #41a884, #16a79a, #00a5ad, #00a2bc, #309dc6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+.TodoAppInnerContainer {
+  width: 40%;
+  height: 90%;
+  background-color: #A4D3C8;
+  border-radius: 5px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(164, 211, 200, 0.32);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  gap: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+
+}
+
+.TodoAppInnerContainer h1 {
+  margin: 25px;
+  font-size: 30px;
+
+}
+
+.TodoListHolder{
+  width: 90%;
+  height: 100vh;
+  
+  /* background-color: aqua; */
+  /* border: 5px solid black; */
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 5px;
+}
+
